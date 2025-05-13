@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "Project cards with technology tags",
       "Detailed project pages"
     ],
-    githubUrl: "https://github.com/username/personal-website",
+    githubUrl: "https://github.com/Zhu-E/portfolio-website",
   },
   {
     id: "google-drive-RAG",
@@ -38,11 +38,9 @@ export const projects: Project[] = [
     features: [
       "User authentication and authorization through Google OAuth",
       "Relevant document retrieval utilizing vector embeddings",
-      "Categorize tasks with labels",
-      "Set due dates and priority levels",
-      "Filter and sort tasks by different criteria"
+      "Response generation using OpenAI's API"
     ],
-    githubUrl: "https://github.com/username/task-manager",
+    githubUrl: "https://github.com/Zhu-E/GoogleDriveRAG",
   },
   {
     id: "clip-compilation-bot",
@@ -52,12 +50,12 @@ export const projects: Project[] = [
     technologies: ["Python", "Google OAuth", "Selenium", "FFmpeg", "Twitch API", "Youtube API"],
     longDescription: "A weather forecast application that provides current weather data and forecasts for locations worldwide. It uses the OpenWeather API to fetch real-time weather information and presents it in a user-friendly interface.",
     features: [
-      "Current weather conditions display",
-      "5-day weather forecast",
-      "Search for locations worldwide",
-      "Display of temperature, humidity, wind speed, and more",
-      "Responsive design for all devices"
+      "Web scraping using Selenium",
+      "Video concatenation using FFmpeg",
+      "Automatic upload to YouTube using the YouTube API",
+      "Find most popular clips using the Twitch API",
+      "Google OAuth for authentication"
     ],
-    githubUrl: "https://github.com/username/weather-app",
+    githubUrl: "https://github.com/Zhu-E/auto_highlights_bot_revisited",
   }
 ]; 
